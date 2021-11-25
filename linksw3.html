@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>links</title>
+    <style>
+        a:link{
+            color: aqua;
+            background-color: transparent;
+            text-decoration: none;
+        }
+        a:visited{
+            color: pink;
+            background-color: transparent;
+            text-decoration: none;
+                 }
+         a:hover{
+             color: red;
+             background-color: transparent;
+             text-decoration: underline;
+         }
+         a:active{
+             color: blue;
+             background-color: transparent;
+             text-decoration: underline;
+         }
+    </style>
+
+</head>
+<body>
+    <h2>The taret attribute</h2>
+    <p><a href="https://www.w3schools.com/" target="_self">Visit W3Schools</a></p>
+    <h3 style="color: powderblue"> Absolute URLs</h3>
+    <p><a href="https://www.w3.org/">w3s</a></p>
+    <h3 style="color: blue"> relative URLs</h3>
+    <p><a href="html_images.asp">html images</a></p>
+    <h1>Image as a link</h1>
+    <p> The image below is a link . Try to click on it .</p>
+    <a href="default.asp"><img src="smiley.gif" alt=" html tutorial" style="width: 42px;height: 42px;"></a>
+    <h2>link to an email address</h2>
+    <p>
+        To create a link that opens in the user's email program (to let them send a new email), use mailto: inside the href attribute:
+    </p>
+    <p><a href="mailto:someone@example.com">Send email</a></p>
+    <h2>Button as a Links</h2>
+    <p>Click the button to go to the HTML tutorial.</p>
+    <button onclick="document.location='default.asp'">HTML Tutorial</button>
+    <h2>Link Titles</h2>
+    <p>The title attribute specifies extra information about an element. The information is most often shown as a tooltip text when the mouse moves over the element.</p>
+    <a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a>
+
+    <h1>Links bookmarks</h1>
+    <p><a href="#c4">jump to chapter 4</a></p>
+    <h2>chapter 1</h2>
+    <p>This is chapter explains :))</p>
+    <h2>chapter 2</h2>
+    <p>This is chapter explains :))</p>
+    <h2>chapter 3</h2>
+    <p>This is chapter explains :))</p>
+    <h2 id="c4">chapter 4</h2>
+    <p>This is chapter explains :))</p>
+    <h2>chapter 5</h2>
+    <p>This is chapter explains :))</p>
+</body>
+</html>
